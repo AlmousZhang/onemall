@@ -13,6 +13,11 @@
 
  Date: 05/06/2019 07:58:03
 */
+drop database if exists mall_user;
+
+create database mall_user;
+
+use mall_user;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;

@@ -37,7 +37,7 @@ dubbo:
   application:
     name: admin-service
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://120.27.224.128:2181
   protocol:
     port: -1
     name: dubbo

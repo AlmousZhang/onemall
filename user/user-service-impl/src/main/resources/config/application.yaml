@@ -23,7 +23,7 @@ dubbo:
   application:
     name: user-service
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://120.27.224.128:2181
   protocol:
     port: -1
     name: dubbo
@@ -47,6 +47,6 @@ dubbo:
 
 # rocketmq
 rocketmq:
-  name-server: 127.0.0.1:9876
+  name-server: 120.27.224.128:9876
   producer:
     group: user-producer-spu-collection-group
